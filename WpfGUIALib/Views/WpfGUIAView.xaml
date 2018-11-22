@@ -1,0 +1,15 @@
+﻿<WpfGUICore:WpfGUIViewBase x:Class="WpfGUIALib.Views.WpfGUIAView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfGUIALib.Views"
+             xmlns:prism="http://www.codeplex.com/prism"
+             xmlns:WpfGUICore="clr-namespace:WpfGUICore;assembly=WpfGUICore">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Button Content="Send Hello World" Command="{Binding LeftBtnCommand}" CommandParameter="Hello World"/>
+            <Button Content="Send World Hello" Command="{Binding LeftBtnCommand}" CommandParameter="World Hello"/>
+        </StackPanel>
+    </Grid>
+</WpfGUICore:WpfGUIViewBase>

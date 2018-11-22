@@ -1,0 +1,3 @@
+﻿Plugins\WpfGUIALib.dll
+Plugins\WpfGUIBLib.dll
+Plugins\WpfGUIWorkstationLib.dll
